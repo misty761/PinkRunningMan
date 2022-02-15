@@ -11,7 +11,7 @@ public class LeaderBoard : MonoBehaviour
     public AudioClip audioClick;
 
     AudioSource audioButton;
-    string LEADER_BOARD_ID = "CgkIkoXW0ecbEAIQBw";
+    string LEADER_BOARD_ID = "Cxxxxxxxxxxxxxx";
 
     private void Awake()
     {

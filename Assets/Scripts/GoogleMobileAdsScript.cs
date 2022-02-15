@@ -18,12 +18,9 @@ public class GoogleMobileAdsScript : MonoBehaviour
 
     public void RequestInterstitial()
     {
-        #if UNITY_ANDROID
+#if UNITY_ANDROID
 
             string adUnitId = "ca-app-pub-3940256099942544/1033173712"; // test ID
-            adUnitId = "ca-app-pub-8612026417340004/5075330186";
-            // ca-app-pub-8612026417340004~7756816924 // App ID
-
 #elif UNITY_IPHONE
             string adUnitId = "ca-app-pub-3940256099942544/4411468910";
 #else
